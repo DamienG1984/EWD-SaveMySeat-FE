@@ -1,0 +1,3 @@
+SaveMySeat is a web application that allows you to book/reserve a table in a resturant anywhere in Ireland. We are the first deadicated site to provide this service in Ireland.
+
+This application allows You to Add a New Resturant, read/wite reviews and make a reservation. You can serach for a resturant in your area by Resturant Name or by simply typing in the Name of the City and it will return a list of Resturants in your area.
