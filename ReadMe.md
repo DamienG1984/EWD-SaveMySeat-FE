@@ -1,28 +1,30 @@
 #Assignment 1 - AngularJS app.
 
-Name: ... your name ...
+Name: Damien Griffin - 02028263
 
 ###Overview.
 ...... A statement of the app concept and objectives (about 1/2 page) ........
+SaveMySeat is a web application that allows you to book/reserve a table in a resturant anywhere in Ireland. We are the first deadicated site to provide this service in Ireland.
+
 
 
  . . . . . List of user features (excluding user registration and authentication) . . . . 
  
- + Feature 1
- + Feature 2
- + Feature 3
- + etc
- + etc
+ + View List of Resturants
+ + Add Resturant
+ + Add Review
+ + Make A Reservation
+ + Serach feature (Search box searchs all resturant objects for the text entered)
+ + Order By Filter
+ + Cuisines Filter
 
 ###Installation requirements.
-. . . .  List of software used to develop the app . . . . . . . 
+. . . .  Software Required to Run SaveMySeat . . . . . . . 
 + AngularJS 1.x
 + Bootstrap 3
-+ etc
-+ etc 
++ AngularJS http server
 
-
-. . . . . . Also, explain (to a third party) what steps one must take to run your app after cloning it from the repository, e.g. any non-standard software installation ; any environment setup; how to start app; where to view app in browser . . . . . . . 
+In order to run the app first open a terminal window and navigate to location of SaveMySeatFE folder. Start the http-server. Open localhost8080 in a web browser and select save my seat
 
 ###Data Model Design.
 
@@ -40,26 +42,45 @@ A simple diagram showing the app's component design, in particular controllers a
 
 ###UI Design.
 
-. . . . . Screenshots of app's views (see example below) with appropriate captions (excluding user regeneration and login views) . . . . . . . 
+![][homepage]
 
-![][image3]
+![][Resturant List]
+
+![][AddReview]
+
+![][Reservation]
+
+![][AddResturant]
 
 ###Routing.
 
 . . . . List each route supported and state the associated view . . . . . 
-+ /foos - displays all published foos
-+ /foos/:id - detail view of a particular foo (:id)
-+ etc
-+ etc
++ /rests - Displays the Home Page
++ /partials/Resturants.html - List of Resturants
++ /rests/:rest_id/Reviews - Displays the Reviews for the current resturant and allows user to add a new review
++ /rests/:rest_id/Bookings - Opens the reservation page which allows users to Book a table
++ /partials/AddResturant.html - Displays the Add Resturant Page
 
 ###Extra features
 
-. . . . . Briefly explain any non-standard features, functional or non-functional (e.g. user registration, authentication) developed for the app . . . . . .  
++ Custom Filters - I created a custom filter to display a distinct list of Cuisines that the user can filter the resturants by. I also create a global search feature which allows the user to search all Resturants at once from a single search box. Sort by filter added which allows the sure to order the resturant by Name (Alphabeticaly), Higest or Lowest Customer Rating.s
+
++ Bookings - All booking fields are requried and the user will be presented with a message saying the blank field needs to be filled out it Reserve button is pressed and a requried box is blank. If the user enters more than 4 people the code will lower the table count by 2 if 4 or less it only lowers by 1. Each field has its own type example dd/mm/yyyy will bring up a calender if dropdown arrow is pressed. Email field requires a vaild email address etc.
+
++ The menu bar has been altered, if the app is been viewed on a smaller device the drop down list closes once the user selects a page to navigate too. The Colours on the Menu bar have also been changed.
+
++ Add Resturant - All Fields are required and the Add Resturant button can't be clicked until all feilds have been filled out. Upon pressing the Add Resturant is add to the array, fields are set back to blank and the user is automatically redirected to the Resturant List page.
+
+
 
 ###Independent learning.
 
-. . . . . State the non-standard aspects of Angular (or other related technologies) that you researched and applied in this assignment . . . . .  
+For my app i researched custom filters, creating a drop down list filter. I also looked into user registration with no server side but was unable to get this working in time.
 
-[image1]: ./model.png
+[image1]: ./Model.png
 [image2]: ./design.png
-[image3]: ./screen.png
+[homepage]: ./homepage.png
+[Resturant List]: ./ResturantList.png
+[AddReview]: ./AddReview.png
+[Reservation]: ./Reservation.png
+[AddResturant]: ./AddResturant.png
