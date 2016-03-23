@@ -69,6 +69,8 @@ A simple diagram showing the app's component design, in particular controllers a
 
 + Add Resturant - All Fields are required and the Add Resturant button can't be clicked until all feilds have been filled out. Upon pressing the Add Resturant is add to the array, fields are set back to blank and the user is automatically redirected to the Resturant List page.
 
++ I also added a seat icon to the tab in the Browser
+
 
 
 ###Independent learning.
