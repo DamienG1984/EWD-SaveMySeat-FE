@@ -3,7 +3,6 @@
 Name: Damien Griffin - 02028263
 
 ###Overview.
-...... A statement of the app concept and objectives (about 1/2 page) ........
 SaveMySeat is a web application that allows you to book/reserve a table in a resturant anywhere in Ireland. We are the first deadicated site to provide this service in Ireland.
 
 
@@ -35,7 +34,7 @@ Diagram of app's data model.
 
 ###App Design.
 
-A simple diagram showing the app's component design, in particular controllers and services (see example below).
+A simple diagram showing the app's component design, in particular controllers and services.
 
 ![][image2]
 
@@ -77,7 +76,7 @@ A simple diagram showing the app's component design, in particular controllers a
 For my app i researched custom filters, creating a drop down list filter. I also looked into user registration with no server side but was unable to get this working in time.
 
 [image1]: ./Model.png
-[image2]: ./design.png
+[image2]: ./Design.png
 [homepage]: ./HomePage.png
 [Resturant List]: ./ResturantList.png
 [AddReview]: ./AddReview.png
