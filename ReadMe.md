@@ -28,11 +28,10 @@ In order to run the app first open a terminal window and navigate to location of
 
 ###Data Model Design.
 
-Diagram of app's data model (see example below) AND/OR a sample of the test data used (JSON or equivalent).
+Diagram of app's data model.
 
 ![][image1]
 
-Use meaningful sample data. Briefly explain any non-trivial issues.
 
 ###App Design.
 
@@ -79,7 +78,7 @@ For my app i researched custom filters, creating a drop down list filter. I also
 
 [image1]: ./Model.png
 [image2]: ./design.png
-[homepage]: ./homepage.png
+[homepage]: ./HomePage.png
 [Resturant List]: ./ResturantList.png
 [AddReview]: ./AddReview.png
 [Reservation]: ./Reservation.png
