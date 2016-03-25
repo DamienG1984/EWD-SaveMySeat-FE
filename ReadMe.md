@@ -1,8 +1,9 @@
-#Assignment 1 - AngularJS app.
+#Assignment 1 - AngularJS app
 
 Name: Damien Griffin - 02028263
 
-###Overview.
+###Overview
+
 SaveMySeat is a web application that allows you to book/reserve a table in a resturant anywhere in Ireland. We are the first deadicated site to provide this service in Ireland.
 
 
@@ -15,17 +16,18 @@ SaveMySeat is a web application that allows you to book/reserve a table in a res
  + Make A Reservation
  + Serach feature (Search box searchs all resturant objects for the text entered)
  + Order By Filter
- + Cuisines Filter
+ + Cuisine Filter
 
-###Installation requirements.
+###Installation requirements
+
 . . . .  Software Required to Run SaveMySeat . . . . . . . 
 + AngularJS 1.x
 + Bootstrap 3
 + AngularJS http server
 
-In order to run Save My Seat you must first open a terminal window and navigate to the location of SaveMySeatFE folder. Start the http-server. Open localhost8080 in a web browser and select save my seat.
+In order to run Save My Seat you must first open a terminal window and navigate to the location where you downloaded the SaveMySeatFE folder. Start the http-server in the terminal window. Open localhost8080 in a web browser and select save my seat and the app should load.
 
-###Data Model Design.
+###Data Model Design
 
 Diagram of app's data model.
 
@@ -50,7 +52,7 @@ A simple diagram showing the app's component design, in particular controllers a
 
 ![][AddResturant]
 
-###Routing.
+###Routing
 
 + /rests - Displays the Home Page
 + /partials/Resturants.html - List of Resturants
