@@ -7,7 +7,7 @@ SaveMySeat is a web application that allows you to book/reserve a table in a res
 
 
 
- . . . . . List of user features (excluding user registration and authentication) . . . . 
+###User Features 
  
  + View List of Resturants
  + Add Resturant
@@ -23,7 +23,7 @@ SaveMySeat is a web application that allows you to book/reserve a table in a res
 + Bootstrap 3
 + AngularJS http server
 
-In order to run the app first open a terminal window and navigate to location of SaveMySeatFE folder. Start the http-server. Open localhost8080 in a web browser and select save my seat
+In order to run Save My Seat you must first open a terminal window and navigate to the location of SaveMySeatFE folder. Start the http-server. Open localhost8080 in a web browser and select save my seat.
 
 ###Data Model Design.
 
@@ -52,7 +52,6 @@ A simple diagram showing the app's component design, in particular controllers a
 
 ###Routing.
 
-. . . . List each route supported and state the associated view . . . . . 
 + /rests - Displays the Home Page
 + /partials/Resturants.html - List of Resturants
 + /rests/:rest_id/Reviews - Displays the Reviews for the current resturant and allows user to add a new review
@@ -72,10 +71,9 @@ A simple diagram showing the app's component design, in particular controllers a
 + I also added a seat icon to the tab in the Browser
 
 
-
 ###Independent learning.
 
-For my app i researched custom filters, creating a drop down list filter. I also looked into user registration with no server side but was unable to get this working in time.
+For my app i researched custom filters, creating a drop down list filter. I also looked into user registration with no server side but was unable to get this working in time. I learned how to make changes to the bootstrap menu bar so it closes on user select when viewing on mobile devices, i was also able to change the colour of the menu bar and hyperlinks.
 
 [image1]: ./Model.png
 [image2]: ./Design.png
